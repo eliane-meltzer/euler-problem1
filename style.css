@@ -1,0 +1,47 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+background-color: cadetblue;
+font-family: sans-serif;
+}
+#intro {
+width: 100%;
+background-color: #76b0b2;
+padding: 60px 0;
+text-align: center;
+}
+#description {
+margin: 50px;
+}
+a {
+color: #175355;
+}
+input {
+display: block;
+}
+
+input[type=text] {
+width: 200px;
+height: 25px;
+margin: 50px auto;
+}
+
+#sub {
+background-color: #175355;
+color: white;
+border: none;
+padding: 9px;
+width: 100px;
+margin: auto;
+}
+
+#sub:hover {
+background-color: #104648;
+}
+
+#sub:focus {
+    outline: none;
+}
